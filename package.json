@@ -1,0 +1,23 @@
+{
+  "name": "node-paperclip-convert-image",
+  "version": "1.0.0",
+  "description": "convert image to jpg, png or bitmap task for node-paperclip",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ballantyne/node-paperclip-convert-image.git"
+  },
+  "author": "Scott Ballantyne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ballantyne/node-paperclip-convert-image/issues"
+  },
+  "homepage": "https://github.com/ballantyne/node-paperclip-convert-image#readme",
+  "dependencies": {
+    "jimp": "^0.2.28",
+    "klass": "^1.4.1"
+  }
+}
