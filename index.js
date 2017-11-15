@@ -2,7 +2,9 @@ const Jimp           = require('jimp');
 const klass          = require('klass');
 
 module.exports       = klass(function(paperclip) {
+
   this.paperclip     = paperclip;
+
 }).methods({
 
   perform: function(options, next) {
